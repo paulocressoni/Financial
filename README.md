@@ -10,7 +10,7 @@ The first parameter is a **CSV file** containing the __account number__ and the 
 The second parameter is a __CSV file__ containing the __account number__ and the __transaction value (in cents)__ for that account. The transaction value can be __positive__ or __negative__. __When positive__, it means that the value will be __credited__ to the account. __When negative__, the value will be __debited__ from the account. The values are separated by a coma (__,__) and there are no headers or tails on the file, only the values described.
 
 ### Rule
-After a __debit__ occurs, if the balance is a __negative value__, there must be immediately a __debit of 500 cents__ to the account current balance.
+After a __debit__ occurs, if the current balance is a __negative value__, there must be immediately a __debit of 500 cents__ to the account current balance.
 
 ## Example:
 You can execute this bash program on a linux terminal, writting `./balance_calculation.sh accounts.csv transactions.csv`. Make sure you are on the correct folder and so are your file parameters.
