@@ -1,5 +1,5 @@
 # Accounts Balance Calculator
-The account balance calculator is a bash program used to calculate the final balance to an account after some transactions are performed with the account. The output will be displayed on the screen when it finishes to execute, and it will be composed of CSV values: __account_number,final_balace__.
+The account balance calculator is a bash program used to calculate the final balance to an account after some transactions are performed with the account. The output will be displayed on the screen when it finishes to execute, and it will be composed of CSV values: __account_number,final_balace__. Here, the __account number__ can be substituted by an __client id__ for example.
 
 The program requires **two parameters** that are **CSV files** to work.
 
